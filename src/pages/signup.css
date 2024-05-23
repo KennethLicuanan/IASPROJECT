@@ -1,0 +1,52 @@
+/* signup.css */
+.welcome-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-image {
+    width: 100px; /* Adjust image width as needed */
+  }
+  
+  .welcome-text {
+    color: #7303ac; /* Set text color to #7303ac */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .signup-button {
+    --background: #7303ac !important; /* Ensure the custom color is applied */
+    color: white; /* Ensure text color contrast */
+    width: 100%;
+  }
+  
+  .signup-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #000000; /* Link color */
+    cursor: pointer;
+  }
+  
+  .signup-text:hover {
+    color: #000000; /* Hover color */
+  }
+  
+  /* Added CSS for input styling */
+  ion-item {
+    --border-color: transparent; /* Set border color to transparent */
+    --inner-border-radius: 0; /* Set inner border radius to 0 */
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for separation */
+    border: 1px solid #ccc; /* Add border */
+    margin-bottom: 10px; /* Add margin bottom */
+  }
+  
+  ion-item ion-input {
+    --padding-top: 10px; /* Adjust padding top to align text with labels */
+  }
+  span{
+    text-decoration: underline;
+  }

@@ -1,0 +1,37 @@
+/* home.css */
+.custom-button {
+    --background: #7303ac !important; /* Set button background color */
+    color: white !important; /* Set button text color */
+  }
+  .custom-button-blue {
+    color: blue;
+  }
+.footer {
+    background-color: #f0f2f5;
+    color: #505050;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer-info {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer p {
+    margin: 5px 20px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .footer a {
+    color: #385898;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #4b7bd6;
+  }
+  
